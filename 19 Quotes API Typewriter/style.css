@@ -1,0 +1,37 @@
+body{ 
+    font-family: 'neuropol_xregular';
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: hidden;
+    background:linear-gradient(0.50turn, #000, #00FFFF,#000);
+  }
+  
+  .container{
+    width: 1280px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #typewriter{
+    width: fit-content;
+    margin: auto;
+  }
+  
+  #typewriter p{font-size: 1.5rem;}
+  
+  span{animation: blinker 1s linear infinite;}
+  
+  @keyframes blinker{
+    50%{opacity: 0;}
+  }
+  
+  @media(max-width:1280px){
+    .container{width: 95%;}
+  }
+  
+  @media(max-width:480px){
+    #typewriter p{font-size: 1rem;}
+  }
