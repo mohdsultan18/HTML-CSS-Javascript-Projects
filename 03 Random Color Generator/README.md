@@ -1,1 +1,1 @@
-README.md
+A simple Random color generator App
